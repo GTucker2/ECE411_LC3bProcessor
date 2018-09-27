@@ -1,0 +1,505 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/gtucker2/ece411/mp1/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 11 rv32i_types 0 22 DjbJ1XVM9eT8kMRXUPfzO0
+DXx4 work 11 alu_sv_unit 0 22 omPgg`ohSPdGE29NViUI10
+VFhWQodO82z9]K]Ug^`@j:2
+r1
+31
+I;=5;a5Ue[_3KNY[:XPUVz1
+S1
+Z3 d/home/gtucker2/ece411/mp1/simulation/modelsim
+Z4 w1536267696
+Z5 8/home/gtucker2/ece411/mp1/alu.sv
+Z6 F/home/gtucker2/ece411/mp1/alu.sv
+L0 3
+Z7 OV;L;10.1d;51
+Z8 !s108 1537390323.429749
+Z9 !s107 /home/gtucker2/ece411/mp1/alu.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/alu.sv|
+Z11 o-sv -work work -O0
+Z12 !s92 -sv -work work +incdir+/home/gtucker2/ece411/mp1 -O0
+!s85 0
+!i10b 1
+!s100 Nf<PW@DGl1@7j[3A?XTV@1
+!s105 alu_sv_unit
+!s101 -O0
+Xalu_sv_unit
+R1
+R2
+VomPgg`ohSPdGE29NViUI10
+r1
+31
+IomPgg`ohSPdGE29NViUI10
+S1
+R3
+R4
+R5
+R6
+L0 1
+R7
+R8
+R9
+R10
+R11
+R12
+!s85 0
+!i10b 1
+!s100 >`UO1P3MoJa_:FFSLF:0a2
+!i103 1
+!s101 -O0
+vcmp
+R1
+R2
+DXx4 work 11 cmp_sv_unit 0 22 1Z7053;N@KG7jDc65Je^c2
+Vl:lIlSilGczzHTXSahln60
+r1
+31
+IEmIlVdEcL<;DMZ<fGedBB0
+S1
+R3
+Z13 w1537145735
+Z14 8/home/gtucker2/ece411/mp1/cmp.sv
+Z15 F/home/gtucker2/ece411/mp1/cmp.sv
+L0 3
+R7
+Z16 !s108 1537390323.557916
+Z17 !s107 /home/gtucker2/ece411/mp1/cmp.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/cmp.sv|
+R11
+R12
+!s85 0
+!i10b 1
+!s100 keS:?JlRMWl?=oK?c]]5f0
+!s105 cmp_sv_unit
+!s101 -O0
+Xcmp_sv_unit
+R1
+R2
+V1Z7053;N@KG7jDc65Je^c2
+r1
+31
+I1Z7053;N@KG7jDc65Je^c2
+S1
+R3
+R13
+R14
+R15
+L0 1
+R7
+R16
+R17
+R18
+R11
+R12
+!s85 0
+!i10b 1
+!s100 <dNJ1^0n`fHPS2HLPf[KC2
+!i103 1
+!s101 -O0
+vcontrol
+R1
+R2
+DXx4 work 15 control_sv_unit 0 22 7_jgg7?_n=63QRL^MPDh>0
+VnLN58:IzlnET=Fn[h=oU`3
+r1
+31
+IojF^NEPA45kkgd?lakPLY0
+S1
+R3
+R13
+Z19 8/home/gtucker2/ece411/mp1/control.sv
+Z20 F/home/gtucker2/ece411/mp1/control.sv
+L0 3
+R7
+Z21 !s108 1537390323.275721
+Z22 !s107 /home/gtucker2/ece411/mp1/control.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/control.sv|
+R11
+R12
+!s85 0
+!i10b 1
+!s100 VkZB<dXJ1AbFG;?>E07@X0
+!s105 control_sv_unit
+!s101 -O0
+Xcontrol_sv_unit
+R1
+R2
+V7_jgg7?_n=63QRL^MPDh>0
+r1
+31
+I7_jgg7?_n=63QRL^MPDh>0
+S1
+R3
+R13
+R19
+R20
+L0 1
+R7
+R21
+R22
+R23
+R11
+R12
+!s85 0
+!i10b 1
+!s100 I4Z_3@1fi1B`GBhShOL3A2
+!i103 1
+!s101 -O0
+vdatapath
+R1
+R2
+DXx4 work 16 datapath_sv_unit 0 22 nD1R0M9ROE:<mBCz65^fO1
+VE_YoNFaNHSXcYk^UFa14Y3
+r1
+31
+I0Y=U3VX8HMRRf79X?<i=I2
+S1
+R3
+R13
+Z24 8/home/gtucker2/ece411/mp1/datapath.sv
+Z25 F/home/gtucker2/ece411/mp1/datapath.sv
+L0 3
+R7
+Z26 !s108 1537390323.117367
+Z27 !s107 /home/gtucker2/ece411/mp1/datapath.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/datapath.sv|
+R11
+R12
+!s85 0
+!i10b 1
+!s100 gbaaHca0SH[F4lgKi1_R60
+!s105 datapath_sv_unit
+!s101 -O0
+Xdatapath_sv_unit
+R1
+R2
+VnD1R0M9ROE:<mBCz65^fO1
+r1
+31
+InD1R0M9ROE:<mBCz65^fO1
+S1
+R3
+R13
+R24
+R25
+L0 1
+R7
+R26
+R27
+R28
+R11
+R12
+!s85 0
+!i10b 1
+!s100 ^U]l:UnVLdSXc7HCfF:9n3
+!i103 1
+!s101 -O0
+vir
+R1
+R2
+DXx4 work 10 ir_sv_unit 0 22 21W2MG<SVD8Nj>lo3XMnM2
+VX:^eUz7g]T8ooJ<j0>UKo1
+r1
+31
+IV1oP<Xm01i9cRgIz`fJgI1
+S1
+R3
+R4
+Z29 8/home/gtucker2/ece411/mp1/ir.sv
+Z30 F/home/gtucker2/ece411/mp1/ir.sv
+L0 3
+R7
+Z31 !s108 1537390322.977157
+Z32 !s107 /home/gtucker2/ece411/mp1/ir.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/ir.sv|
+R11
+R12
+!s85 0
+!i10b 1
+!s100 XRGA^YHXS?ILl46SRiHTo2
+!s105 ir_sv_unit
+!s101 -O0
+Xir_sv_unit
+R1
+R2
+V21W2MG<SVD8Nj>lo3XMnM2
+r1
+31
+I21W2MG<SVD8Nj>lo3XMnM2
+S1
+R3
+R4
+R29
+R30
+L0 1
+R7
+R31
+R32
+R33
+R11
+R12
+!s85 0
+!i10b 1
+!s100 Shg;QbbDP_ASWoT@j@ZXK3
+!i103 1
+!s101 -O0
+vmemory
+R1
+!i10b 1
+!s100 ]6:4U9`aT]ki7ZnJd6dAQ0
+I4^@6n6iQD0ECT4BGimmLA1
+VDVPZJ4jBNJ`o;6Q116>j63
+!s105 memory_sv_unit
+S1
+R3
+w1536267838
+8/home/gtucker2/ece411/mp1/memory.sv
+F/home/gtucker2/ece411/mp1/memory.sv
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1537390323.934508
+!s107 /home/gtucker2/ece411/mp1/memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/memory.sv|
+!s101 -O0
+R11
+R12
+vmp1
+R1
+R2
+DXx4 work 11 mp1_sv_unit 0 22 fc^e430>BSIBnHQcG7J=I0
+V@`SCEmD=Dl^jMLI5T9A^53
+r1
+31
+IIS5XC61BT5>]DH2GAhn@e2
+S1
+R3
+Z34 w1536267745
+Z35 8/home/gtucker2/ece411/mp1/mp1.sv
+Z36 F/home/gtucker2/ece411/mp1/mp1.sv
+L0 3
+R7
+Z37 !s108 1537390323.697586
+Z38 !s107 /home/gtucker2/ece411/mp1/mp1.sv|
+Z39 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/mp1.sv|
+R11
+R12
+!s85 0
+!i10b 1
+!s100 iW0:UM6^jfVCXK8f1?_oS1
+!s105 mp1_sv_unit
+!s101 -O0
+Xmp1_sv_unit
+R1
+R2
+Vfc^e430>BSIBnHQcG7J=I0
+r1
+31
+Ifc^e430>BSIBnHQcG7J=I0
+S1
+R3
+R34
+R35
+R36
+L0 1
+R7
+R37
+R38
+R39
+R11
+R12
+!s85 0
+!i10b 1
+!s100 [_b`FXo4ccJ:R?jz>41nS1
+!i103 1
+!s101 -O0
+vmp1_tb
+R1
+IVh]SKNTAjG?GO[`6Z@lcb0
+VbZ9PPI7@DSNcX6JEX8W=j3
+S1
+R3
+w1536268586
+8/home/gtucker2/ece411/mp1/mp1_tb.sv
+F/home/gtucker2/ece411/mp1/mp1_tb.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 7]b<^J=bmR=k;KN3?iSaN3
+!s105 mp1_tb_sv_unit
+!s85 0
+!s108 1537390323.828427
+!s107 /home/gtucker2/ece411/mp1/mp1_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/mp1_tb.sv|
+!s101 -O0
+vmux2
+R1
+IH2LdP;1HIo?C6>?:XAULQ0
+Vm:h1@_?d9XDk^V?Kb1omM1
+S1
+R3
+R13
+8/home/gtucker2/ece411/mp1/mux2.sv
+F/home/gtucker2/ece411/mp1/mux2.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 jjb1hK0FcnA9ciVe^:M0A2
+!s105 mux2_sv_unit
+!s85 0
+!s108 1537390322.752070
+!s107 /home/gtucker2/ece411/mp1/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/mux2.sv|
+!s101 -O0
+vmux4
+R1
+IaOz?0[lUi]YQ4O8T[@4KI1
+VUaW18l>Tii>0Y18DoZkUg0
+S1
+R3
+R13
+8/home/gtucker2/ece411/mp1/mux4.sv
+F/home/gtucker2/ece411/mp1/mux4.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 0j^H^bK]klC1YjBSBQ<bd3
+!s105 mux4_sv_unit
+!s85 0
+!s108 1537390322.834881
+!s107 /home/gtucker2/ece411/mp1/mux4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/mux4.sv|
+!s101 -O0
+vmux8
+R1
+IbYWC?FN`bY8B[P`R]E8NU3
+VE;P_[1AXUP:>PmgUYJL7L2
+S1
+R3
+R13
+8/home/gtucker2/ece411/mp1/mux8.sv
+F/home/gtucker2/ece411/mp1/mux8.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 RgekUTG0GfH2Gole@?XDh3
+!s105 mux8_sv_unit
+!s85 0
+!s108 1537390322.909188
+!s107 /home/gtucker2/ece411/mp1/mux8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/mux8.sv|
+!s101 -O0
+vpc_register
+R1
+IEb6=6@`@U@IKzj^k_7Vn@2
+VklRD>XzTggk8KSC9SP52K1
+S1
+R3
+R4
+8/home/gtucker2/ece411/mp1/pc_reg.sv
+F/home/gtucker2/ece411/mp1/pc_reg.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 ETFi[>?>T4UJEF7<S23KX1
+!s105 pc_reg_sv_unit
+!s85 0
+!s108 1537390322.676316
+!s107 /home/gtucker2/ece411/mp1/pc_reg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/pc_reg.sv|
+!s101 -O0
+vregfile
+R1
+IFf]Pd9f3Y>afk;BUEeUE>2
+VGW?iBdZdblFljzF;>DX>>2
+S1
+R3
+R4
+8/home/gtucker2/ece411/mp1/regfile.sv
+F/home/gtucker2/ece411/mp1/regfile.sv
+L0 2
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 G[>JK2nG`CPNeDPXNLK0>3
+!s105 regfile_sv_unit
+!s85 0
+!s108 1537390322.603888
+!s107 /home/gtucker2/ece411/mp1/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/regfile.sv|
+!s101 -O0
+vregister
+R1
+IJERX0@3cOzH5Qe:G2E>0;2
+VdFa=ka6HO1;nc3L`IjmEK2
+S1
+R3
+R4
+8/home/gtucker2/ece411/mp1/register.sv
+F/home/gtucker2/ece411/mp1/register.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 H[KMIgACLc]f2khfm_[^@3
+!s105 register_sv_unit
+!s85 0
+!s108 1537390322.524351
+!s107 /home/gtucker2/ece411/mp1/register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/register.sv|
+!s101 -O0
+Xrv32i_types
+R1
+IDjbJ1XVM9eT8kMRXUPfzO0
+VDjbJ1XVM9eT8kMRXUPfzO0
+S1
+R3
+R4
+8/home/gtucker2/ece411/mp1/rv32i_types.sv
+F/home/gtucker2/ece411/mp1/rv32i_types.sv
+L0 1
+R7
+r1
+31
+R11
+R12
+!i10b 1
+!s100 2P4FYz`?B9>PKI9:_UFQl0
+!s85 0
+!s108 1537390322.421771
+!s107 /home/gtucker2/ece411/mp1/rv32i_types.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gtucker2/ece411/mp1|/home/gtucker2/ece411/mp1/rv32i_types.sv|
+!s101 -O0

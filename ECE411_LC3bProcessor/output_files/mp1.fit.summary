@@ -1,0 +1,22 @@
+Fitter Status : Successful - Wed Sep 19 15:51:02 2018
+Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : mp1
+Top-level Entity Name : mp1
+Family : Stratix IV
+Device : EP4SGX70HF35C2
+Timing Models : Final
+Logic utilization : 4 %
+    Combinational ALUTs : 1,311 / 58,080 ( 2 % )
+    Memory ALUTs : 0 / 29,040 ( 0 % )
+    Dedicated logic registers : 1,199 / 58,080 ( 2 % )
+Total registers : 1199
+Total pins : 104 / 584 ( 18 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 6,617,088 ( 0 % )
+DSP block 18-bit elements : 0 / 384 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 16 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 24 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 16 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 24 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

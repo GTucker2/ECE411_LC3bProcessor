@@ -1,0 +1,197 @@
+# do mp1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/rv32i_types.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package rv32i_types
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/pc_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc_register
+# 
+# Top level modules:
+# 	pc_register
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/mux4.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/mux8.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux8
+# 
+# Top level modules:
+# 	mux8
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/ir.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ir_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module ir
+# 
+# Top level modules:
+# 	ir
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package datapath_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package control_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package alu_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/cmp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cmp_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module cmp
+# 
+# Top level modules:
+# 	cmp
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/mp1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package mp1_sv_unit
+# -- Importing package rv32i_types
+# -- Compiling module mp1
+# 
+# Top level modules:
+# 	mp1
+# 
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/mp1_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mp1_tb
+# 
+# Top level modules:
+# 	mp1_tb
+# vlog -sv -work work +incdir+/home/gtucker2/ece411/mp1 {/home/gtucker2/ece411/mp1/memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiv_hssi_ver -L stratixiv_pcie_hip_ver -L stratixiv_ver -L rtl_work -L work -voptargs="+acc"  mp1_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiv_hssi_ver -L stratixiv_pcie_hip_ver -L stratixiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mp1_tb 
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.rv32i_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.mux2
+# Loading work.cmp_sv_unit
+# Loading work.cmp
+# Loading work.mux4
+# Loading work.register
+# Loading work.mux8
+# Loading work.regfile
+# Loading work.pc_register
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.memory
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+add wave -position end  sim:/mp1_tb/dut/datapath/regfile/data
+restart -f; run 10000ns
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.rv32i_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.mux2
+# Loading work.cmp_sv_unit
+# Loading work.cmp
+# Loading work.mux4
+# Loading work.register
+# Loading work.mux8
+# Loading work.regfile
+# Loading work.pc_register
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.memory
+restart -f; run 100000ns
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.rv32i_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.mux2
+# Loading work.cmp_sv_unit
+# Loading work.cmp
+# Loading work.mux4
+# Loading work.register
+# Loading work.mux8
+# Loading work.regfile
+# Loading work.pc_register
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.memory
+# ** Note: $finish    : /home/gtucker2/ece411/mp1/mp1_tb.sv(37)
+#    Time: 24705 ns  Iteration: 1  Instance: /mp1_tb
+# 1
+# Break in Module mp1_tb at /home/gtucker2/ece411/mp1/mp1_tb.sv line 37

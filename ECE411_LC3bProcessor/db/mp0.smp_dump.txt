@@ -1,0 +1,16 @@
+
+State Machine - |mp0|control:control|state
+Name state.st2 state.st1 state.ld2 state.ld1 state.calc_addr state.s_br state.s_lui state.s_imm state.s_auipc state.decode state.fetch3 state.fetch2 state.fetch1 
+state.fetch1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.fetch2 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.fetch3 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.decode 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.s_auipc 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.s_imm 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.s_lui 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.s_br 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.calc_addr 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ld1 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.ld2 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.st1 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.st2 1 0 0 0 0 0 0 0 0 0 0 0 1 
