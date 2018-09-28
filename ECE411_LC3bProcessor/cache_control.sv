@@ -27,7 +27,47 @@ enum int unsigned {
 
 always_comb
 begin : state_actions
+	/* Default output assignments */
+	set_dirty = 1'b0;
+	set_valid = 1'b0;
+	load_mem = 1'b0;
+	mem_resp = 1'b0;
+	load_tag = 1'b0;
+	pmem_read = 1'b0;
+	pmem_write = 1'b0;
+	set_clean = 1'b0;
 end
+	
+case(state):
+	idle: begin end
+	tag_compare_1:
+	begin 
+		if (valid && hit) 
+		begin 
+			load_tag = 1
+			mem_resp = 1
+		end 
+	end
+	tag_compare_2:
+	begin
+		if (mem_write == 1)
+		begin
+			set_dirty = 1
+			set_valid = 1
+			load_mem = 1
+		end
+	end
+	allocate:
+	begin
+		pmem_read = 1
+		load_mem = 1
+	end
+	write_back:
+	begin
+		pmem_write = 1
+		set_clean = 1
+	end
+endcase
 
 always_comb
 begin : next_state_logic
