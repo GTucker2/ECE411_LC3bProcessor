@@ -1,6 +1,6 @@
 import rv32i_types::*;
 
-module cache_control 
+module cache_control
 (
 	 input mem_read,
 	 input mem_write,
@@ -37,16 +37,16 @@ begin : state_actions
 	pmem_write = 1'b0;
 	set_clean = 1'b0;
 end
-	
+
 case(state):
 	idle: begin end
 	tag_compare_1:
-	begin 
-		if (valid && hit) 
-		begin 
+	begin
+		if (valid && hit)
+		begin
 			load_tag = 1
 			mem_resp = 1
-		end 
+		end
 	end
 	tag_compare_2:
 	begin
@@ -75,33 +75,33 @@ begin : next_state_logic
      * for transitioning between states */
 	  next_states = state;
 	  case(state)
-			idle: 
-			begin 
+			idle:
+			begin
 				if (mem_read || mem_write)
 					next_states = tag_compare_1;
 			end
-			tag_compare_1: 
-			begin 
+			tag_compare_1:
+			begin
 				if (mem_resp) next_states = idle;
 				else next_states = tag_compare_2;
 			end
 			tag_compare_2:
 			begin
-				if (~hit && dirty) begin 
+				if (~hit && dirty) begin
 					next_states = write_back;
-				end else if (~hit && ~dirty) begin 
+				end else if (~hit && ~dirty) begin
 					next_states = allocate;
 				end
 			end
 			allocate:
-			begin 
-				if (pmem_resp) begin 
+			begin
+				if (pmem_resp) begin
 					next_states = tag_compare_1;
 				end
 			end
 			write_back:
-			begin 
-				if (pmem_resp_1) begin 
+			begin
+				if (pmem_resp_1) begin
 					next_states = allocate;
 				end
 			end
@@ -115,4 +115,4 @@ begin: next_state_assignment
 	 state = next_states;
 end
 
-endmodule : cache_control 
+endmodule : cache_control
